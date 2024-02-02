@@ -1,0 +1,147 @@
+nav {
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+.active {
+    color: #ffcc00;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #eee, #fff);
+    transition: background 1s;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+section#about {
+    margin: 20px;
+    text-align: center;
+}
+
+section#about img {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make it circular */
+    margin-bottom: 20px;
+}
+
+section#about h2 {
+    color: #333;
+}
+
+section#skills {
+    margin: 20px;
+    text-align: center;
+    background-color: #fff; /* Add background color */
+    padding: 20px;
+    border-radius: 10px; /* Add rounded corners */
+}
+
+section#skills img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+section#skills h2 {
+    color: #333;
+}
+
+.skill {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd; /* Add border */
+    border-radius: 8px; /* Add rounded corners */
+    transition: transform 0.3s; /* Add hover effect */
+}
+
+.skill:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.5s;
+}
+
+header:hover, footer:hover {
+    background-color: #555;
+}
+
+body:hover {
+    background: linear-gradient(to bottom, #fff, #eee);
+}
